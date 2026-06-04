@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Знамените личности Западне Србије</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#dceeff,#f5f9ff);
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    margin-bottom:15px;
+    font-size:2.5rem;
+}
+
+header p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.person-img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.card-header{
+    background:#1565c0;
+    color:white;
+    text-align:center;
+    padding:18px;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    color:#0d47a1;
+    margin-bottom:12px;
+}
+
+.location{
+    background:#e3f2fd;
+    color:#0d47a1;
+    font-weight:bold;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.card-content p{
+    line-height:1.7;
+    text-align:justify;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Знамените личности Западне Србије</h1>
+    <p>
+        Западна Србија дала је многе истакнуте личности које су оставиле
+        значајан траг у историји, култури, науци, спорту и музици.
+        У наставку су представљени неки од најпознатијих људи рођених
+        у овом делу Србије.
+    </p>
+</header>
+
+<div class="container">
+
+    <!-- Miloš Obrenović -->
+    <div class="card">
+        <img src="images/milos-obrenovic.jpg" alt="Милош Обреновић" class="person-img">
+
+        <div class="card-header">
+            <h2>Милош Обреновић</h2>
+        </div>
+
+        <div class="card-content">
+            <h3>Вођа Другог српског устанка</h3>
+
+            <div class="location">
+                📍 Горња Добриња код Пожеге – Западна Србија
+            </div>
+
+            <p>
+                Милош Обреновић био је један од најзначајнијих српских државника
+                и вођа Другог српског устанка 1815. године. Његовом политиком
+                Србија је стекла широку аутономију у оквиру Османског царства.
+                Оснивач је династије Обреновић и сматра се једним од утемељивача
+                модерне српске државе.
+            </p>
+        </div>
+    </div>
+
+    <!-- Vuk -->
+    <div class="card">
+        <img src="images/vuk-karadzic.jpg" alt="Вук Караџић" class="person-img">
+
+        <div class="card-header">
+            <h2>Вук Караџић</h2>
+        </div>
+
+        <div class="card-content">
+            <h3>Реформатор српског језика и писма</h3>
+
+            <div class="location">
+                📍 Тршић код Лознице – Западна Србија
+            </div>
+
+            <p>
+                Вук Стефановић Караџић извршио је реформу српског језика и
+                азбуке. Његово правило „Пиши као што говориш, читај како је
+                написано“ постало је основ савременог српског језика.
+                Сакупљао је народне песме, приче и обичаје, чувајући тако
+                националну културну баштину.
+            </p>
+        </div>
+    </div>
+
+    <!-- Cvijic -->
+    <div class="card">
+        <img src="images/jovan-cvijic.jpg" alt="Јован Цвијић" class="person-img">
+
+        <div class="card-header">
+            <h2>Јован Цвијић</h2>
+        </div>
+
+        <div class="card-content">
+            <h3>Географ и научник</h3>
+
+            <div class="location">
+                📍 Лозница – Западна Србија
+            </div>
+
+            <p>
+                Јован Цвијић био је чувени географ, геолог и етнолог.
+                Истраживао је Балканско полуострво и објавио бројне научне радове
+                који су стекли међународно признање. Био је ректор Београдског
+                универзитета и председник Српске краљевске академије.
+            </p>
+        </div>
+    </div>
+<!-- Teodosic -->
+<div class="card">
+    <img src="images/milos-teodosic.jpg"
+         alt="Милош Теодосић"
+         class="person-img teodosic">
+
+    <div class="card-header">
+        <h2>Милош Теодосић</h2>
+    </div>
+
+    <div class="card-content">
+        <h3>Кошаркаш</h3>
+
+        <div class="location">
+            📍 Ваљево – Западна Србија
+        </div>            <p>
+                Милош Теодосић је један од најуспешнијих српских кошаркаша.
+                Познат је по својим прецизним додавањима, изузетном прегледу игре
+                и лидерским способностима. Освајао је бројне медаље са
+                репрезентацијом Србије и наступао за велике европске клубове,
+                као и у НБА лиги.
+            </p>
+        </div>
+    </div>
+
+    <!-- Desanka -->
+    <div class="card">
+        <img src="images/desanka-maksimovic.jpg" alt="Десанка Максимовић" class="person-img">
+
+        <div class="card-header">
+            <h2>Десанка Максимовић</h2>
+        </div>
+
+        <div class="card-content">
+            <h3>Песникиња</h3>
+
+            <div class="location">
+                📍 Рабровица код Ваљева – Западна Србија
+            </div>
+
+            <p>
+                Десанка Максимовић је једна од највољенијих српских песникиња.
+                Њена поезија одише љубављу, родољубљем и хуманошћу.
+                Посебно је позната по песми „Крвава бајка“, посвећеној
+                страдању ученика у Крагујевцу током Другог светског рата.
+            </p>
+        </div>
+    </div>
+
+    <!-- Miroslav -->
+    <div class="card">
+        <img src="images/miroslav-ilic.jpg" alt="Мирослав Илић" class="person-img">
+
+        <div class="card-header">
+            <h2>Мирослав Илић</h2>
+        </div>
+
+        <div class="card-content">
+            <h3>Народни певач</h3>
+
+            <div class="location">
+                📍 Мрчајевци код Чачка – Западна Србија
+            </div>
+
+            <p>
+                Мирослав Илић је један од најпознатијих певача народне музике
+                на Балкану. Током дуге и успешне каријере снимио је велики број
+                хитова који се и данас слушају. Његов препознатљив глас и песме
+                учинили су га једним од симбола српске народне музике.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    Алекса,Лана,Николај,Растко
+</footer>
+
+</body>
+</html>
